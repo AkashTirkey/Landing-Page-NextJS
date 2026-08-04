@@ -1,0 +1,49 @@
+.header{
+    margin: 0 40px;
+    padding: 40px 50px;
+}
+
+.header > p{
+    font-size: 12px;
+    font-family: DM sans-serif;
+    color: #f5C518;
+}
+
+.section h1{
+    font-size: 108px;
+    font-family:"Barlow Condensed", sans-serif;
+    font-weight: 900;
+}
+
+.para p{
+    font-size: 18px;
+    font-family: "DM Sans",sans-serif;
+}
+
+.buttons{
+    margin-top: 40px;
+}
+
+.lBtn{
+    color: #050A1A;
+    background-color: #f5C518;
+    padding: 16px 32px;
+    font: "DM Sans",sans-serif;
+    font-weight: 700;
+    border-radius: 6px;
+    border:none;
+        letter-spacing: 0.01em;
+        cursor: pointer;
+        margin-right: 20px;
+}
+
+.Rbtn{
+    color: #E8ECf5;
+    font: 15px sans-serif;
+    padding: 16px 32px;
+    font-weight: 700;
+    border-radius: 6px;
+    border:none;
+        letter-spacing: 0.01em;
+        cursor: pointer;
+}
