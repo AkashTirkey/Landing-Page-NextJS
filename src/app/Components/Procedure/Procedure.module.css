@@ -1,0 +1,65 @@
+.Container{
+    padding: 100px 75px;
+    background-color: #0B1530;
+}
+
+.main{
+    padding-right: 500px;
+}
+
+.cards{
+    /* margin: 60px 0px 0px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 40px;
+}
+
+.card{
+    border: 1px solid grey;
+    padding: 20px 20px;
+    background-color: #0F1C3A
+;
+}
+.main > p{
+    font-size: 11px;
+    font-weight: 700px;
+    letter-spacing: 0.25em;
+    color: #F5C518;
+    margin-bottom: 14px;
+    text-transform: uppercase;
+    font-family: "DM Sans",sans-serif;
+}
+
+.main h1{
+    font-family: "Barlow Condensed",sans-serif;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 1.0;
+    text-transform: uppercase;
+    letter-spacing: -0.01em;
+}
+
+/* card */
+.card h3{
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Barlow Condensed",sans-serif;
+    margin-bottom:10px;
+    color: #FFFFFF;
+}
+
+.card p{
+    font-size: 14px;
+    color: #7A88AA;
+    line-height: 1.6;
+}
+
+.num p{
+    font-family: "DM Sans', sans-serif";
+    font-size: 45px;
+    font-weight: 900;
+    color: rgba(245, 197, 24, 0.12);
+    line-height: 1;
+    margin-bottom: 16px;
+}
