@@ -6,6 +6,7 @@ import LeagueTracks from "./Components/LeagueTracks/LeagueTracks";
 import Procedure from "./Components/Procedure/Procedure";
 import Outcome from "./Components/Outcome/Outcome";
 import Media from "./Components/Media/Media";
+import Registration from "./Components/Registration/Registration";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Procedure />
       <Outcome />
       <Media />
+      <Registration />
     </>
   );
 }
