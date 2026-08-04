@@ -4,6 +4,7 @@ import Header from "./Components/Header/Header";
 import About from "./Components/About/About";
 import LeagueTracks from "./Components/LeagueTracks/LeagueTracks";
 import Procedure from "./Components/Procedure/Procedure";
+import Outcome from "./Components/Outcome/Outcome";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <About />
       <LeagueTracks />
       <Procedure />
+      <Outcome />
     </>
   );
 }
