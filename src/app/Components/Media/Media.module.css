@@ -1,0 +1,41 @@
+.Container{
+    background-color: #050A1A;
+}
+
+.section{
+    margin: 30px 30px;
+    padding-left:75px ;
+}
+
+.section > p{
+    margin-top: 20px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.25em;
+    text-transform: uppercase;
+    color: #F5C518;
+    margin-bottom: 14px;
+
+}
+
+.section h1{
+    font-size:40px;
+    font-weight: 800;
+    line-height: 1.0;
+    text-transform: uppercase;
+}
+
+.article{
+    display: flex;
+    justify-content: flex-start;
+    gap: 60px;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+.article h5{
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    font-size: 16px;
+}
+

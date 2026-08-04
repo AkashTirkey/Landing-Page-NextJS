@@ -5,6 +5,7 @@
 .intro{
     max-width: 1200px;
     margin: 0 auto 14px;
+    padding: 40px 0;
     /* text-align: center; */
 }
 
@@ -40,11 +41,15 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
+    padding-right: 300px;
+    margin-top: 50px;
 }
 
 .card{
-    border: 1px solid  #0F1C3A;
+    border: 1px solid  #1A2C54;
     padding: 28px 24px;
+    background-color: #0F1C3A;
+    border-radius: 10px;
 }
 
 .card h4{
