@@ -7,7 +7,8 @@ const LeagueTracks = () => {
         <h1> PICK YOUR</h1>
         <h1 style={{ color: "#F5C518" }}>ARENA</h1>
         <p className={style.para}>
-          Two tracks. Two stages. One goal — to find India's most fearless young
+          Two tracks. Two stages. One goal — to find India&apos;s most fearless
+          young
         </p>
         <p>founders.</p>
       </div>

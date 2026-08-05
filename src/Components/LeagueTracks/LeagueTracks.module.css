@@ -5,22 +5,23 @@ padding: 40px 0;
 
 }
 .section{
-    max-width: 1200px;
-    margin: 0 auto;
+    /* max-width: 1200px;
+    margin: 0 auto; */
     padding: 10px 20px;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .section > p{
     font-size: 11px;
     font-family:"DM Sans", sans-serif ;
     /* color: #F5C518; */
-    font-weight: 700;
-    letter-spacing: 0.25em;
+    font-weight: 600;
+    letter-spacing: 0.2em;
 }
 
 .section h1{

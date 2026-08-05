@@ -4,7 +4,7 @@ const About = () => {
     <div className={style.container}>
       <section className={style.about}>
         <div className={style.leftContent}>
-          <p>-What is NYEL</p>
+          <p style={{ textTransform: "uppercase" }}>-What is NYEL</p>
           <h2>NOT A SCHOOL</h2>
           <h2>PROJECT.</h2>
           <h2 style={{ color: "#F5C518" }}>A REAL STAGE.</h2>
@@ -31,7 +31,7 @@ const About = () => {
               <strong>Elite Finals Venues</strong>
               <p>
                 IIT Bombay (E-Cell NEC Juniors) and IIM Calcutta — two of
-                India's most respected academic and entrepreneurship
+                India&apos;s most respected academic and entrepreneurship
                 institutions.
               </p>
             </div>
@@ -57,7 +57,7 @@ const About = () => {
             <div className={style.desc}>
               <strong>Mission</strong>
               <p>
-                Find India's next generation of founders before they leave
+                Find India&apos;s next generation of founders before they leave
                 schools
               </p>
             </div>

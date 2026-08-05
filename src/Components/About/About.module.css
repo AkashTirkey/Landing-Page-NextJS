@@ -1,13 +1,14 @@
 .container{
-    max-width: 1200px;
-    margin: 0 auto;
+    
     padding: 0 20px;
     background-color: #0B1530;
 }
 
 .about{
     display: flex;
-    padding: 100px 60px;
+    padding: 100px 50px;
+    max-width: 1200px;
+    margin: 0 auto;
     /* border: 1px solid grey; */
 }
 .leftContent, .rightContent{
@@ -37,8 +38,9 @@
 
 .para{
     max-width: 600px;
-color: #E8ECF5;
-line-height: 1.7;
+    color: #E8ECF5;
+    line-height: 1.8;
+    margin-top: 20px;
 }
 
 .btn{

@@ -8,11 +8,19 @@ const Header = () => {
         <section className={style.section}>
           <h1>NATIONAL YOUNG</h1>
           <h1 style={{ color: "#F5C518" }}>ENTREUPRENEURS</h1>
-          <h1>LEAGUE</h1>
+          <h1
+            style={{
+              color: "transparent",
+              webkitTextStroke: "2px rgba(255, 255, 255, 0.6)",
+            }}
+          >
+            LEAGUE
+          </h1>
 
           <div className={style.para}>
             <p>
-              India's most prestigious startup competition for school students.
+              India&apos;s most prestigious startup competition for school
+              students.
             </p>
             <p>
               <strong>Learn. Build. Pitch.</strong> The top young founders get
@@ -20,7 +28,7 @@ const Header = () => {
             </p>
             <p>
               <strong>
-                IIT Bombay's NEC Juniors Finals and E-Cell IIM Calcutta.
+                IIT Bombay&apos;s NEC Juniors Finals and E-Cell IIM Calcutta.
               </strong>{" "}
             </p>
           </div>
