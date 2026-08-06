@@ -6,11 +6,15 @@
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
+    flex-direction: column ;
     justify-content: center;
     align-items: center;
     padding: 40px 0;
 }
 
+/* .top{
+    flex:1;
+} */
 .top h1{
     text-align: center;
     font-size: 60px;
@@ -29,3 +33,60 @@
     font-weight: 300;
 }
 
+.formSection{
+    background-color: #0F1C3A;
+    padding: 60px;
+    border-radius: 20px;
+    max-width: 680px;
+    margin: 60px auto 0;
+    border: 1px solid #1A2C54;
+}
+.formTitle{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.formSub{
+    font-size: 14px;
+    color: #7A88AA;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.formGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.formField{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.formLabel{
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color:#7A88AA;
+}
+.formInp , .formSelect{
+    background:#050A1A;
+    border: 1px solid #1A2C54;
+    color: #E8ECF5;
+    padding: 12px 16px;
+    border-radius: 8px;
+    font-family: 'DM Sans',sans-serif;
+    font-size: 15px;
+    outline: none;
+    transition-property: border-color;
+    transition-behavior: normal;
+    transition-duration: 0.15s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
