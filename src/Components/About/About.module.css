@@ -2,7 +2,7 @@
     
     padding: 0 20px;
     background-color: #0B1530;
-    height: 90vh;
+    min-height: 90vh;
 }
 
 .about{
@@ -93,4 +93,44 @@
 
 .desc p{
     font-family:"DM Sans", sans-serif;
+}
+
+/* responsiveness */
+
+@media (max-width: 768px) {
+
+    .about {
+        flex-direction: column;
+        padding: 60px 20px;
+        gap: 50px;
+    }
+
+    .leftContent,
+    .rightContent {
+        padding: 0;
+    }
+
+    .leftContent h2 {
+        font-size: 42px;
+    }
+
+    .para {
+        margin-top: 18px;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .rightContent {
+        gap: 28px;
+    }
+
+    .stats {
+        gap: 20px;
+    }
+
+    .num p {
+        font-size: 40px;
+    }
 }

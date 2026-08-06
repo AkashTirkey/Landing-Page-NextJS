@@ -30,21 +30,39 @@ const LeagueTracks = () => {
           <div className={style.lists}>
             <ul className={style.listItems}>
               <li>
-                Build a startup idea around a real problem you see in your world
+                <span className={style.checkIcon}>✓</span> Build a startup idea
+                around a real problem you see in your world
               </li>
               <li>
-                Learn from BriSharks modules and global founders via Master
-                Classes
+                <span className={style.checkIcon}>✓</span> Learn from BriSharks
+                modules and global founders via Master Classes
               </li>
               <li>
-                Create your first pitch deck and present to a panel of judges
+                <span className={style.checkIcon}>✓</span> Create your first
+                pitch deck and present to a panel of judges
               </li>
-              <li>Top finalists pitch live at the National Finals stage</li>
               <li>
-                Win mentorship, recognition, and a launchpad for your startup
-                journey
+                <span className={style.checkIcon}>✓</span> Top finalists pitch
+                live at the National Finals stage
+              </li>
+              <li>
+                <span className={style.checkIcon}>✓</span> Win mentorship,
+                recognition, and a launchpad for your startup journey
               </li>
             </ul>
+            <div className={style.trackVenue}>
+              <div className={style.venueIcon}>🏛️</div>
+              <div className={style.venueInfo}>
+                <div className={style.venueLabel}>Finals Venue</div>
+                <div className={style.venueName}>
+                  NEC Juniors - E-Cell, IIT Bombay
+                </div>
+                <div className={style.venueSub}>
+                  Runs NEC — one of India's largest student entrepreneurship
+                  events.
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div className={style.gridContent}>
@@ -57,26 +75,39 @@ const LeagueTracks = () => {
           <div className={style.lists}>
             <ul className={style.listItems}>
               <li>
-                Validate a real market problem and build a minimum viable
-                product
+                <span className={style.checkIcon}>✓</span> Validate a real
+                market problem and build a minimum viable product
               </li>
               <li>
-                Build a business model, financial projections, and a
-                go-to-market plan
+                <span className={style.checkIcon}>✓</span> Build a business
+                model, financial projections, and a go-to-market plan
               </li>
               <li>
-                Pitch in a real investor format — structured, timed, and Q&A
-                tested
+                <span className={style.checkIcon}>✓</span> Pitch in a real
+                investor format — structured, timed, and Q&A tested
               </li>
               <li>
-                Top finalists pitch in front of investors and faculty at IIM
-                Calcutta
+                <span className={style.checkIcon}>✓</span> Top finalists pitch
+                in front of investors and faculty at IIM Calcutta
               </li>
               <li>
-                Win funding access, incubation pathways, and national
-                recognition
+                <span className={style.checkIcon}>✓</span> Win funding access,
+                incubation pathways, and national recognition
               </li>
             </ul>
+            <div className={style.trackVenue}>
+              <div className={style.venueIcon}>🎓</div>
+              <div className={style.venueInfo}>
+                <div className={style.venueLabel}>Finals Venue</div>
+                <div className={style.venueName}>
+                  NEC Juniors - E-Cell, IIM Calcutta
+                </div>
+                <div className={style.venueSub}>
+                  Pitch where India's business leaders are built — before you
+                  apply to college.
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

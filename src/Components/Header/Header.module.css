@@ -1,5 +1,6 @@
 .container{
     height: 100vh;
+    background-color: #050A1A;
     /* background-image: linear-gradient(rgba(255, 255, 255, 0.5) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.5) 1px, transparent 1px); */
         /* position: absolute; */
     /* inset: 0;
@@ -13,19 +14,24 @@
 
 .header > p{
     font-size: 12px;
-    font-family: DM sans-serif;
+    font-family: 'DM Sans', sans-serif;
     color: #f5C518;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-weight: 600;
 }
 
 .section h1{
     font-size: 108px;
-    font-family:"Barlow Condensed", sans-serif;
+    font-family:'Barlow Condensed' ,sans-serif;
     font-weight: 900;
+    letter-spacing: 0.01em;
+    /* line-height: 0.92; */
 }
 
 .para p{
     font-size: 18px;
-    font-family: "DM Sans",sans-serif;
+    font-family: 'DM Sans',sans-serif;
 }
 
 .buttons{
@@ -36,7 +42,7 @@
     color: #050A1A;
     background-color: #f5C518;
     padding: 16px 32px;
-    font: "DM Sans",sans-serif;
+    font-family: 'DM Sans',sans-serif;
     font-weight: 700;
     border-radius: 6px;
     border:none;
@@ -54,4 +60,73 @@
     border:none;
         letter-spacing: 0.01em;
         cursor: pointer;
+}
+
+/* responsiveness */
+@media (max-width: 768px) {
+  .header {
+    margin: 0 20px;
+    padding: 30px 20px;
+  }
+
+  .section h1 {
+    font-size: 64px;
+  }
+
+  .para p {
+    font-size: 16px;
+  }
+
+  .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .lBtn,
+  .Rbtn {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    height: auto;
+    min-height: 100vh;
+  }
+
+  .header {
+    margin: 0;
+    padding: 24px 20px;
+  }
+
+  .header > p {
+    font-size: 10px;
+    letter-spacing: 0.15em;
+  }
+
+  .section h1 {
+    font-size: 42px;
+    line-height: 1.05;
+  }
+
+  .para p {
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-top: 32px;
+  }
+
+  .lBtn,
+  .Rbtn {
+    width: 100%;
+    padding: 14px 20px;
+    margin-right: 0;
+    font-size: 15px;
+  }
 }

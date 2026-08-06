@@ -1,5 +1,5 @@
 .Container{
- background-color:radial-gradient rgba(245, 197, 24, 0.06) 0%, transparent 70%;
+ background-color:#0B1530;
 }
 
 .section{
@@ -89,4 +89,152 @@
     transition-duration: 0.15s;
     transition-timing-function: ease;
     transition-delay: 0s;
+}
+
+.formFieldFull{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    grid-column: 1/-1;
+}
+
+.formTrackPick{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.trackRadio{
+    display: none;
+}
+
+.trackLabel{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 14px 18px;
+    border: 1px solid #1A2C54;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+.trackLabel:hover{
+    border:1px solid #f5c518;
+}
+
+.tracklabelName{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.formSubmit{
+    width: 100%;
+    background-color: #f5c518;
+    color: #050A1A;
+    font-family: 'DM Sans',sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 16px;
+    margin-top: 8px;
+    grid-column: 1/-1;
+    letter-spacing: 0.02em ;
+}
+
+.formDisclaimer{
+    font-size: 12px;
+    text-align: center;
+    margin-top: 14px;
+    color: #7A88AA;
+
+    grid-column: 1/-1;
+}
+/* Responsiveness */
+@media (max-width: 768px) {
+
+    .top h1 {
+        font-size: 38px;
+    }
+
+    .top p {
+        font-size: 16px;
+    }
+
+    .formSection {
+        padding: 28px;
+        margin-top: 40px;
+    }
+
+    .formGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .formFieldFull {
+        grid-column: auto;
+    }
+
+    .formTrackPick {
+        grid-template-columns: 1fr;
+    }
+
+    .formSubmit {
+        grid-column: auto;
+    }
+
+    .formDisclaimer {
+        grid-column: auto;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .section {
+        padding: 30px 16px;
+    }
+
+    .top h1 {
+        font-size: 30px;
+    }
+
+    .top p {
+        font-size: 15px;
+    }
+
+    .formSection {
+        padding: 20px;
+        border-radius: 12px;
+    }
+
+    .formTitle {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .formSub {
+        font-size: 13px;
+    }
+
+    .formInp,
+    .formSelect {
+        font-size: 14px;
+        padding: 10px 14px;
+    }
+
+    .trackLabel {
+        padding: 12px 14px;
+    }
+
+    .tracklabelName {
+        font-size: 14px;
+    }
+
+    .formSubmit {
+        font-size: 15px;
+        padding: 14px;
+    }
+
 }

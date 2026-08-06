@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <div className={style.container}>
       <header className={style.header}>
-        <p>INTRODUCING 💠 BRISHARKS PRESENTS</p>
+        <p>Introducing · BriSharks Presents</p>
 
         <section className={style.section}>
           <h1>NATIONAL YOUNG</h1>

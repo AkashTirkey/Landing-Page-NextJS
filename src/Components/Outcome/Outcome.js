@@ -20,6 +20,7 @@ const Outcome = () => {
 
           <div className={style.cards}>
             <div className={style.card}>
+              <div className={style.icon}>🚀</div>
               <h4>a real startup</h4>
               <p>
                 A validated idea, a working MVP, and a pitch deck — built by
@@ -27,6 +28,7 @@ const Outcome = () => {
               </p>
             </div>
             <div className={style.card}>
+              <div className={style.icon}>📁</div>
               <h4>A founder's portfolio</h4>
               <p>
                 Their deck, demo video, and startup profile — ready to show a
@@ -34,6 +36,7 @@ const Outcome = () => {
               </p>
             </div>
             <div className={style.card}>
+              <div className={style.icon}>🧠</div>
               <h4>skills school doesn't teach</h4>
               <p>
                 Customer research, business modelling, financial thinking, and
@@ -41,6 +44,7 @@ const Outcome = () => {
               </p>
             </div>
             <div className={style.card}>
+              <div className={style.icon}>🌐</div>
               <h4>A national network</h4>
               <p>
                 Connections with founders, mentors, and fellow student
@@ -48,6 +52,7 @@ const Outcome = () => {
               </p>
             </div>
             <div className={style.card}>
+              <div className={style.icon}>🏅</div>
               <h4>a finalist certificate</h4>
               <p>
                 For those who reach the finals — recognition from a partner cell
@@ -55,6 +60,7 @@ const Outcome = () => {
               </p>
             </div>
             <div className={style.card}>
+              <div className={style.icon}>💡</div>
               <h4>the founder mindset</h4>
               <p>
                 Win or lose, they leave seeing problems as opportunities — the

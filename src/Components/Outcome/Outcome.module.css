@@ -1,6 +1,6 @@
 .container{
     background-color: #0B1530;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .intro{
@@ -31,18 +31,22 @@
     margin-bottom: 20px;
 }
 
-.para p{
-    max-width:50%;
+.para {
+    display: flex;
+    justify-content: center;
+}
+
+.para p {
+    max-width: 650px;
     text-align: center;
-    /* max-width: 640px; */
-    color: #E8ECF5;
+    line-height: 1.7;
 }
 
 .cards{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
-    padding-right: 300px;
+    /* padding-right: 300px; */
     margin-top: 50px;
 }
 
@@ -66,4 +70,37 @@
     font-size: 14px;
     color: #7A88AA;
     line-height: 1.6;
+}
+
+.icon{
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+
+    .intro {
+        padding: 50px 20px;
+    }
+
+    .intro h1 {
+        font-size: 42px;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+        padding-right: 0;
+        gap: 18px;
+        margin-top: 40px;
+    }
+
+    .card {
+        padding: 22px;
+    }
+
+    .para p {
+        max-width: 100%;
+        font-size: 16px;
+    }
 }

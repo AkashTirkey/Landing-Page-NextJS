@@ -79,8 +79,8 @@ const Registration = () => {
             </div>
             <div className={style.formField}>
               <label className={style.formLabel}>CURRENT GRADE </label>
-              <select name="" id="" className={style.formSelect}>
-                <option value="" selected disabled>
+              <select defaultValue="" className={style.formSelect}>
+                <option value="" disabled>
                   Select Grade
                 </option>
                 <option value="">Grade 5</option>
@@ -94,38 +94,54 @@ const Registration = () => {
               </select>
             </div>
 
-            <div className="form-field full">
-              <label htmlFor="">Select your league track</label>
+            <div className={style.formFieldFull}>
+              <label className={style.formLabel}>
+                Select your league track
+              </label>
 
-              <div className="form-track-pick">
+              <div className={style.formTrackPick}>
                 <input
                   type="radio"
                   value="junior"
                   id="track-junior"
-                  className="track-radio"
+                  className={style.trackRadio}
                 />
-                <label className="track-label" for="track-junior">
-                  <span className="track-label-name">Junior Founders</span>
-                  <span>Grades 5-8 Finals at IIT Bombay</span>
+                <label className={style.trackLabel} htmlFor="track-junior">
+                  <span
+                    className={style.tracklabelName}
+                    style={{ color: "#00C9A7" }}
+                  >
+                    Junior Founders
+                  </span>
+                  <span style={{ fontSize: "12px", color: "#7A88AA" }}>
+                    Grades 5-8 Finals at IIT Bombay
+                  </span>
                 </label>
 
                 <input
                   type="radio"
-                  className="track-radio"
+                  className={style.trackRadio}
                   id="track-senior"
                   value="senior"
                 />
-                <label className="track-label" for="track-senior">
-                  <span className="track-label-name">Senior Founders</span>
-                  <span>Grades 9-12 Finals at IIT Calcutta</span>
+                <label className={style.trackLabel} htmlFor="track-senior">
+                  <span
+                    className={style.tracklabelName}
+                    style={{ color: "#F5C518" }}
+                  >
+                    Senior Founders
+                  </span>
+                  <span style={{ fontSize: "12px", color: "#7A88AA" }}>
+                    Grades 9-12 Finals at IIT Calcutta
+                  </span>
                 </label>
               </div>
             </div>
-            <button type="submit" className="form-submit">
+            <button type="submit" className={style.formSubmit}>
               Secure My Spot in NYEL 2026 →{" "}
             </button>
 
-            <div className="form-disclaimer">
+            <div className={style.formDisclaimer}>
               <p>
                 By registering, you agree to be contacted by BriSharks regarding
                 the National Young Entrepreneurs League. Your details are never
