@@ -1,4 +1,10 @@
 import style from "./Registration.module.css";
+import { Barlow_Condensed } from "next/font/google";
+
+const barlow = Barlow_Condensed({
+  subsets: ["latin"],
+  weight: ["700", "800"],
+});
 
 const Registration = () => {
   return (
@@ -20,10 +26,10 @@ const Registration = () => {
           <h1>REGISTER FOR NYEL 2026</h1>
           <p>Takes 2 minutes. Your Idea has been waiting long enough</p>
 
-          <label for="fname">STUDENT'S FIRST NAME</label>
+          <label htmlFor="fname">STUDENT'S FIRST NAME</label>
           <input type="text" placeholder="Aarav" id="fname" />
 
-          <label for="lname">STUDENT'S LAST NAME</label>
+          <label htmlFor="lname">STUDENT'S LAST NAME</label>
           <input type="text" placeholder="Sharma" id="lname" />
         </form>
       </section>

@@ -1,4 +1,10 @@
 import style from "./Outcome.module.css";
+import { Barlow_Condensed } from "next/font/google";
+
+const barlow = Barlow_Condensed({
+  subsets: ["latin"],
+  weight: ["700", "800"],
+});
 const Outcome = () => {
   return (
     <div className={style.container}>

@@ -1,4 +1,10 @@
 import style from "./Header.module.css";
+import { Barlow_Condensed } from "next/font/google";
+
+const barlow = Barlow_Condensed({
+  subsets: ["latin"],
+  weight: ["700", "800"],
+});
 const Header = () => {
   return (
     <div className={style.container}>
@@ -8,14 +14,7 @@ const Header = () => {
         <section className={style.section}>
           <h1>NATIONAL YOUNG</h1>
           <h1 style={{ color: "#F5C518" }}>ENTREUPRENEURS</h1>
-          <h1
-            style={{
-              color: "transparent",
-              webkitTextStroke: "2px rgba(255, 255, 255, 0.6)",
-            }}
-          >
-            LEAGUE
-          </h1>
+          <h1>LEAGUE</h1>
 
           <div className={style.para}>
             <p>

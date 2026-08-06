@@ -1,4 +1,10 @@
 import style from "./LeagueTracks.module.css";
+import { Barlow_Condensed } from "next/font/google";
+
+const barlow = Barlow_Condensed({
+  subsets: ["latin"],
+  weight: ["700", "800"],
+});
 const LeagueTracks = () => {
   return (
     <div className={style.main}>

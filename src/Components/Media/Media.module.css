@@ -3,7 +3,7 @@
 }
 
 .section{
-    margin: 30px 30px;
+    margin: 90px 30px 90px 30px;
     padding-left:75px ;
 }
 
@@ -19,7 +19,7 @@
 }
 
 .section h1{
-    font-size:40px;
+    font-size:48px;
     font-weight: 800;
     line-height: 1.0;
     text-transform: uppercase;
