@@ -50,6 +50,15 @@
   background-color: #0f1c3a;
   border-radius: 10px;
   /* border: 1px solid grey; */
+
+  /* add transition */
+  transition:all 0.3s ease;
+  
+}
+
+.gridContent:hover{
+  transform: translateY(-5px);
+  border: 1px solid #F5C518;
 }
 
 .gridContent ul li {

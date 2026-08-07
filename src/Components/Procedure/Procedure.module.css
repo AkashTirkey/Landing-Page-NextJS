@@ -13,13 +13,20 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 40px;
+
+    /* transition */
+    transition: all 0.3s ease;
 }
 
 .card{
     border: 1px solid grey;
     padding: 20px 20px;
-    background-color: #0F1C3A
-;
+    background-color: #0F1C3A;
+    cursor:pointer;
+}
+
+.card:hover{
+    background-color:#16264d;
 }
 .main > p{
     font-size: 11px;
