@@ -19,6 +19,11 @@
 
 .leftContent{
     padding: 10px 25px;
+
+    /* animation: ; */
+    animation: slideUp 0.8s ease-in forwards ;
+    opacity: 0;
+    transform: translateY(50px);
 }
 
 .leftContent > p{
@@ -92,7 +97,19 @@
 }
 
 .desc p{
-    font-family:"DM Sans", sans-serif;
+    font-family:'DM Sans', sans-serif;
+}
+/* animation */
+@keyframes slideUp{
+    from{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+   to{
+        opacity: 1;
+        transform:translateY(0);
+        opacity: 1;
+    }
 }
 
 /* responsiveness */
